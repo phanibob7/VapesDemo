@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuCell" rowHeight="60" id="KGk-i7-Jjw" customClass="MenuCell" customModule="Vapes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdw-Ex-bUa">
+                        <rect key="frame" x="20" y="10" width="246" height="29.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K3s-9Q-CiC" userLabel="bottom line">
+                        <rect key="frame" x="0.0" y="49" width="320" height="0.5"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="2Qr-8t-LD8"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f3y-HE-Qv9">
+                        <rect key="frame" x="271" y="0.0" width="49" height="49"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ndu-Uk-hKA">
+                                <rect key="frame" x="0.0" y="0.0" width="0.5" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="0.5" id="QjU-n5-dVM"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PU6-Zl-kUa">
+                                <rect key="frame" x="0.5" y="0.0" width="48.5" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-5" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PU6-Zl-kUa" secondAttribute="trailing" id="0YW-d9-jm7"/>
+                            <constraint firstAttribute="bottom" secondItem="Ndu-Uk-hKA" secondAttribute="bottom" id="38C-rn-gwI"/>
+                            <constraint firstItem="Ndu-Uk-hKA" firstAttribute="leading" secondItem="f3y-HE-Qv9" secondAttribute="leading" id="8tm-9b-hwp"/>
+                            <constraint firstAttribute="width" constant="49" id="DFz-iq-GPm"/>
+                            <constraint firstAttribute="bottom" secondItem="PU6-Zl-kUa" secondAttribute="bottom" id="EZG-wT-2Xv"/>
+                            <constraint firstItem="PU6-Zl-kUa" firstAttribute="top" secondItem="f3y-HE-Qv9" secondAttribute="top" id="I0h-RG-OHD"/>
+                            <constraint firstItem="Ndu-Uk-hKA" firstAttribute="top" secondItem="f3y-HE-Qv9" secondAttribute="top" id="LcC-wJ-awK"/>
+                            <constraint firstItem="PU6-Zl-kUa" firstAttribute="leading" secondItem="Ndu-Uk-hKA" secondAttribute="trailing" id="wut-C5-Snq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="vdw-Ex-bUa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="EgP-FU-C6f"/>
+                    <constraint firstAttribute="trailing" secondItem="K3s-9Q-CiC" secondAttribute="trailing" id="KCm-5f-j55"/>
+                    <constraint firstItem="K3s-9Q-CiC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="QYB-8W-oxp"/>
+                    <constraint firstAttribute="trailing" secondItem="f3y-HE-Qv9" secondAttribute="trailing" id="RMD-ng-9pw"/>
+                    <constraint firstItem="K3s-9Q-CiC" firstAttribute="top" secondItem="f3y-HE-Qv9" secondAttribute="bottom" id="fhi-Pu-Puz"/>
+                    <constraint firstItem="f3y-HE-Qv9" firstAttribute="leading" secondItem="vdw-Ex-bUa" secondAttribute="trailing" constant="5" id="hEf-yO-1B6"/>
+                    <constraint firstItem="f3y-HE-Qv9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="oq6-TS-afd"/>
+                    <constraint firstAttribute="bottom" secondItem="K3s-9Q-CiC" secondAttribute="bottom" id="uuK-ak-Cma"/>
+                    <constraint firstItem="vdw-Ex-bUa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ycY-hg-gTe"/>
+                    <constraint firstAttribute="bottom" secondItem="vdw-Ex-bUa" secondAttribute="bottom" constant="10" id="zUq-z9-dfA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collapseBtn" destination="PU6-Zl-kUa" id="LsI-1H-LPr"/>
+                <outlet property="collapseView" destination="f3y-HE-Qv9" id="KYb-If-32F"/>
+                <outlet property="collapseViewWidth" destination="DFz-iq-GPm" id="chz-5c-dsh"/>
+                <outlet property="itemLbl" destination="vdw-Ex-bUa" id="RbQ-ic-YGF"/>
+                <outlet property="itemLblLeftSpace" destination="ycY-hg-gTe" id="ang-gE-2ka"/>
+            </connections>
+            <point key="canvasLocation" x="-50" y="-110"/>
+        </tableViewCell>
+    </objects>
+</document>

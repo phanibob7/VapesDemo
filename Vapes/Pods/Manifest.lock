@@ -1,0 +1,32 @@
+PODS:
+  - FeedKit (8.0.0)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SlideMenuControllerSwift (4.0.0)
+
+DEPENDENCIES:
+  - FeedKit
+  - NVActivityIndicatorView
+  - SDWebImage
+  - SlideMenuControllerSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FeedKit
+    - NVActivityIndicatorView
+    - SDWebImage
+    - SlideMenuControllerSwift
+
+SPEC CHECKSUMS:
+  FeedKit: 4a78f07adf7f0a224b904014678f1de82a7ffc21
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
+
+PODFILE CHECKSUM: dc39e2e6c4c8dd224e6fad1955ada74388cf1fda
+
+COCOAPODS: 1.5.3

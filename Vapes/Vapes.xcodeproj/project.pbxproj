@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB120994214B85430059F446 /* ImageWithTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120992214B85430059F446 /* ImageWithTitleCell.swift */; };
+		BB120995214B85430059F446 /* ImageWithTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB120993214B85430059F446 /* ImageWithTitleCell.xib */; };
+		BB120998214B91080059F446 /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB120996214B91080059F446 /* FeaturedCell.swift */; };
+		BB120999214B91080059F446 /* FeaturedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB120997214B91080059F446 /* FeaturedCell.xib */; };
+		BB12099C214BC2D60059F446 /* BasicTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12099B214BC2D60059F446 /* BasicTableVC.swift */; };
+		BB5C258821493E41005E6CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C258721493E41005E6CBC /* AppDelegate.swift */; };
+		BB5C258D21493E41005E6CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5C258B21493E41005E6CBC /* Main.storyboard */; };
+		BB5C258F21493E43005E6CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5C258E21493E43005E6CBC /* Assets.xcassets */; };
+		BB5C259221493E43005E6CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5C259021493E43005E6CBC /* LaunchScreen.storyboard */; };
+		BB5C259B214953BE005E6CBC /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C259A214953BE005E6CBC /* MenuVC.swift */; };
+		BB5C259F21495423005E6CBC /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C259D21495423005E6CBC /* MenuCell.swift */; };
+		BB5C25A021495423005E6CBC /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5C259E21495423005E6CBC /* MenuCell.xib */; };
+		BB5C25A321495623005E6CBC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C25A221495623005E6CBC /* Constants.swift */; };
+		BB5C25A52149595E005E6CBC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C25A42149595E005E6CBC /* Extensions.swift */; };
+		BB73740F2150C5FD001933CC /* roboto-slab.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB73740C2150C5FD001933CC /* roboto-slab.regular.ttf */; };
+		BB7374102150C5FD001933CC /* roboto-slab.light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB73740D2150C5FD001933CC /* roboto-slab.light.ttf */; };
+		BB7374112150C5FD001933CC /* roboto-slab.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB73740E2150C5FD001933CC /* roboto-slab.bold.ttf */; };
+		BBE61F0B214E92F6001CBC59 /* VapeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE61F0A214E92F6001CBC59 /* VapeDetailVC.swift */; };
+		E3949537F9850811F8579DEA /* Pods_Vapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4339DD4E357940895CD9DCDF /* Pods_Vapes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39DA951CBDB5A6C73AE4022F /* Pods-Vapes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vapes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vapes/Pods-Vapes.release.xcconfig"; sourceTree = "<group>"; };
+		4339DD4E357940895CD9DCDF /* Pods_Vapes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vapes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB120992214B85430059F446 /* ImageWithTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithTitleCell.swift; sourceTree = "<group>"; };
+		BB120993214B85430059F446 /* ImageWithTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageWithTitleCell.xib; sourceTree = "<group>"; };
+		BB120996214B91080059F446 /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
+		BB120997214B91080059F446 /* FeaturedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedCell.xib; sourceTree = "<group>"; };
+		BB12099B214BC2D60059F446 /* BasicTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableVC.swift; sourceTree = "<group>"; };
+		BB5C258421493E41005E6CBC /* Vapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5C258721493E41005E6CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB5C258C21493E41005E6CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB5C258E21493E43005E6CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5C259121493E43005E6CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB5C259321493E43005E6CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5C259A214953BE005E6CBC /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		BB5C259D21495423005E6CBC /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		BB5C259E21495423005E6CBC /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		BB5C25A221495623005E6CBC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BB5C25A42149595E005E6CBC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BB73740C2150C5FD001933CC /* roboto-slab.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-slab.regular.ttf"; sourceTree = "<group>"; };
+		BB73740D2150C5FD001933CC /* roboto-slab.light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-slab.light.ttf"; sourceTree = "<group>"; };
+		BB73740E2150C5FD001933CC /* roboto-slab.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-slab.bold.ttf"; sourceTree = "<group>"; };
+		BBE61F0A214E92F6001CBC59 /* VapeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VapeDetailVC.swift; sourceTree = "<group>"; };
+		C5B58CAEA8D2A553613A1CC6 /* Pods-Vapes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vapes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vapes/Pods-Vapes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5C258121493E41005E6CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3949537F9850811F8579DEA /* Pods_Vapes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FFE005DE7AF8643C908E8C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4339DD4E357940895CD9DCDF /* Pods_Vapes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB120991214B84230059F446 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C259C21495404005E6CBC /* Menu */,
+				BB120992214B85430059F446 /* ImageWithTitleCell.swift */,
+				BB120993214B85430059F446 /* ImageWithTitleCell.xib */,
+				BB120996214B91080059F446 /* FeaturedCell.swift */,
+				BB120997214B91080059F446 /* FeaturedCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BB12099A214BBAC50059F446 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				BB12099B214BC2D60059F446 /* BasicTableVC.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		BB5C257B21493E41005E6CBC = {
+			isa = PBXGroup;
+			children = (
+				BB5C258621493E41005E6CBC /* Vapes */,
+				BB5C258521493E41005E6CBC /* Products */,
+				D643B76C013C4F42F0CC7644 /* Pods */,
+				8FFE005DE7AF8643C908E8C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5C258521493E41005E6CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C258421493E41005E6CBC /* Vapes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5C258621493E41005E6CBC /* Vapes */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C259921493EC2005E6CBC /* Classes */,
+				BB5C25A1214955F7005E6CBC /* Supporting Files */,
+				BB5C258721493E41005E6CBC /* AppDelegate.swift */,
+				BB5C258B21493E41005E6CBC /* Main.storyboard */,
+				BB5C258E21493E43005E6CBC /* Assets.xcassets */,
+			);
+			path = Vapes;
+			sourceTree = "<group>";
+		};
+		BB5C259921493EC2005E6CBC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB12099A214BBAC50059F446 /* Generics */,
+				BB120991214B84230059F446 /* Cells */,
+				BB5C25A42149595E005E6CBC /* Extensions.swift */,
+				BB5C259A214953BE005E6CBC /* MenuVC.swift */,
+				BBE61F0A214E92F6001CBC59 /* VapeDetailVC.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BB5C259C21495404005E6CBC /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C259D21495423005E6CBC /* MenuCell.swift */,
+				BB5C259E21495423005E6CBC /* MenuCell.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		BB5C25A1214955F7005E6CBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB73740B2150C581001933CC /* Fonts */,
+				BB5C259321493E43005E6CBC /* Info.plist */,
+				BB5C259021493E43005E6CBC /* LaunchScreen.storyboard */,
+				BB5C25A221495623005E6CBC /* Constants.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB73740B2150C581001933CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BB73740E2150C5FD001933CC /* roboto-slab.bold.ttf */,
+				BB73740D2150C5FD001933CC /* roboto-slab.light.ttf */,
+				BB73740C2150C5FD001933CC /* roboto-slab.regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D643B76C013C4F42F0CC7644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5B58CAEA8D2A553613A1CC6 /* Pods-Vapes.debug.xcconfig */,
+				39DA951CBDB5A6C73AE4022F /* Pods-Vapes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5C258321493E41005E6CBC /* Vapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5C259621493E43005E6CBC /* Build configuration list for PBXNativeTarget "Vapes" */;
+			buildPhases = (
+				2D22C9A18BAB0BEB44974A83 /* [CP] Check Pods Manifest.lock */,
+				BB5C258021493E41005E6CBC /* Sources */,
+				BB5C258121493E41005E6CBC /* Frameworks */,
+				BB5C258221493E41005E6CBC /* Resources */,
+				098B35260BA94A73F9AADA6B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vapes;
+			productName = Vapes;
+			productReference = BB5C258421493E41005E6CBC /* Vapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5C257C21493E41005E6CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Aadhan;
+				TargetAttributes = {
+					BB5C258321493E41005E6CBC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BB5C257F21493E41005E6CBC /* Build configuration list for PBXProject "Vapes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5C257B21493E41005E6CBC;
+			productRefGroup = BB5C258521493E41005E6CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5C258321493E41005E6CBC /* Vapes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5C258221493E41005E6CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5C259221493E43005E6CBC /* LaunchScreen.storyboard in Resources */,
+				BB7374112150C5FD001933CC /* roboto-slab.bold.ttf in Resources */,
+				BB73740F2150C5FD001933CC /* roboto-slab.regular.ttf in Resources */,
+				BB120999214B91080059F446 /* FeaturedCell.xib in Resources */,
+				BB7374102150C5FD001933CC /* roboto-slab.light.ttf in Resources */,
+				BB5C258F21493E43005E6CBC /* Assets.xcassets in Resources */,
+				BB120995214B85430059F446 /* ImageWithTitleCell.xib in Resources */,
+				BB5C25A021495423005E6CBC /* MenuCell.xib in Resources */,
+				BB5C258D21493E41005E6CBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		098B35260BA94A73F9AADA6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vapes/Pods-Vapes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vapes/Pods-Vapes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D22C9A18BAB0BEB44974A83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vapes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5C258021493E41005E6CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5C25A321495623005E6CBC /* Constants.swift in Sources */,
+				BBE61F0B214E92F6001CBC59 /* VapeDetailVC.swift in Sources */,
+				BB5C25A52149595E005E6CBC /* Extensions.swift in Sources */,
+				BB12099C214BC2D60059F446 /* BasicTableVC.swift in Sources */,
+				BB5C258821493E41005E6CBC /* AppDelegate.swift in Sources */,
+				BB120994214B85430059F446 /* ImageWithTitleCell.swift in Sources */,
+				BB5C259F21495423005E6CBC /* MenuCell.swift in Sources */,
+				BB120998214B91080059F446 /* FeaturedCell.swift in Sources */,
+				BB5C259B214953BE005E6CBC /* MenuVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB5C258B21493E41005E6CBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5C258C21493E41005E6CBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB5C259021493E43005E6CBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5C259121493E43005E6CBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5C259421493E43005E6CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB5C259521493E43005E6CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5C259721493E43005E6CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B58CAEA8D2A553613A1CC6 /* Pods-Vapes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H4L9SM39U;
+				INFOPLIST_FILE = "$(SRCROOT)/Vapes/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aadhan.Vapes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB5C259821493E43005E6CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DA951CBDB5A6C73AE4022F /* Pods-Vapes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H4L9SM39U;
+				INFOPLIST_FILE = "$(SRCROOT)/Vapes/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aadhan.Vapes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5C257F21493E41005E6CBC /* Build configuration list for PBXProject "Vapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5C259421493E43005E6CBC /* Debug */,
+				BB5C259521493E43005E6CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5C259621493E43005E6CBC /* Build configuration list for PBXNativeTarget "Vapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5C259721493E43005E6CBC /* Debug */,
+				BB5C259821493E43005E6CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB5C257C21493E41005E6CBC /* Project object */;
+}
